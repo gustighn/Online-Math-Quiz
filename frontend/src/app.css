@@ -1,0 +1,40 @@
+.centered {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #0001;
+  text-align: center;
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px #0001;
+}
+input[type="text"], input[type="number"] {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 80%;
+}
+button {
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+button:disabled {
+  background: #a5b4fc;
+  cursor: not-allowed;
+}
+.question {
+  margin-bottom: 1rem;
+}
